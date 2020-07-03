@@ -1,4 +1,4 @@
-padlock_password = ["F", "o", "o", "d"]
+password = ["F", "o", "o", "d"]
 
 char1 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
 char2 = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
@@ -12,8 +12,8 @@ number3 = 0
 
 
 while True:
-    if guess == padlock_password:
-        print("The padlock password is: " + str(guess))
+    if guess == password:
+        print("The password is: " + str(guess))
         break
     else:
         guess[0] = char1[number]
